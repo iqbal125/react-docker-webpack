@@ -17,6 +17,7 @@ function App() {
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           Learn React
         </a>
+        {process.env.key1 ? <p>{process.env.key1}</p> : <p>No key Found</p>}
       </header>
     </div>
   )
