@@ -4,11 +4,8 @@ import "./App.css"
 
 function App() {
   //Add cdk
-  if (!process.env.key1) {
-    throw new Error("Erro1")
-  } else {
-    console.log(process.env.key1)
-  }
+
+  console.log("FFFFFFFFFFFFF" + process.env.key1)
 
   return (
     <div className="App">
